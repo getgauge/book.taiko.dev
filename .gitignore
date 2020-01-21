@@ -1,0 +1,4 @@
+.bundle
+*.html
+Gemfile.lock
+vendor
