@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800&display=swap');
+
+@font-face {
+  font-family: 'PoppinsLatin-Bold';
+  src: url('../fonts/poppins-latin/Poppins-Bold.ttf') format('truetype'),
+       url('../fonts/poppins-latin/Poppins-Bold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'PoppinsLatin-Medium';
+  src: url('../fonts/poppins-latin/Poppins-Medium.ttf') format('truetype'),
+       url('../fonts/poppins-latin/Poppins-Medium.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'PoppinsLatin-SemiBold';
+  src: url('../fonts/poppins-latin/PoppinsLatin-SemiBold.ttf') format('truetype'),
+       url('../fonts/poppins-latin/PoppinsLatin-SemiBoldItalicm.otf') format("opentype");
+}
+
+@font-face {
+  font-family: 'OpenSans-Regular';
+  src: url('../fonts/open-sans/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-SemiBold';
+  src: url('../fonts/open-sans/OpenSans-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSans-Bold';
+  src: url('../fonts/open-sans/OpenSans-Bold.ttf') format('truetype');
+}
+
+
 /* Derived from the Riak documentation theme developed by Basho Technologies, Inc. | CC BY 3.0 License | http://docs.basho.org */
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,700);
-@import url(https://fonts.googleapis.com/css?family=Noticia+Text:400,400italic);
 
 /*! normalize.css v2.1.2 | MIT License | git.io/normalize */
 /* ========================================================================== HTML5 display definitions ========================================================================== */
@@ -46,7 +80,7 @@ script {
 /* ========================================================================== Base ========================================================================== */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS text size adjust after orientation change, without disabling user zoom. */
 html {
-  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -81,6 +115,7 @@ a:hover {
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
+  font-family: 'PoppinsLatin-SemiBold';
 }
 
 /** Address styling not present in IE 8/9, Safari 5, and Chrome. */
@@ -508,7 +543,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Titillium Web", Verdana, Arial, sans-serif;
+  font-family: 'PoppinsLatin-SemiBold';
   font-weight: normal;
   font-style: normal;
   color: #616366;
@@ -1424,7 +1459,6 @@ table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p {
 .listingblock pre[class^="highlight "],
 .listingblock pre.CodeRay,
 .listingblock pre.prettyprint {
-  background: url('../images/riak/pre-bg.jpg');
 }
 
 .sidebarblock .literalblock pre,
@@ -1478,7 +1512,6 @@ table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p {
 }
 
 .literalblock.output pre {
-  color: url('../images/riak/pre-bg.jpg');
   background-color: inherit;
 }
 
@@ -2302,10 +2335,6 @@ b.conum * {
   display: none;
 }
 
-body {
-  background-image: url('../images/riak/body-bg.jpg');
-}
-
 ::selection {
   background-color: #fcc07f;
   color: #fff;
@@ -2317,7 +2346,6 @@ body {
 
 .literalblock pre,
 .listingblock pre {
-  background: url('../images/riak/pre-bg.jpg');
   -webkit-box-shadow: inset 0 1px 4px #aeb9b6;
   box-shadow: inset 0 1px 4px #aeb9b6;
   -webkit-border-radius: 5px;
@@ -2336,7 +2364,6 @@ p>em {
 
 .admonitionblock>table {
   width: 100%;
-  background-image: url('../images/riak/info-bg.jpg');
   border-collapse: separate;
   border-spacing: 0;
   -webkit-border-radius: 5px;
@@ -2362,7 +2389,6 @@ p>em {
 
 .admonitionblock .literalblock>.content>pre,
 .admonitionblock .listingblock>.content>pre {
-  background-image: url('../images/riak/info-bg.jpg');
 }
 
 .exampleblock>.content {
