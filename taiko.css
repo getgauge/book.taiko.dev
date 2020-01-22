@@ -929,7 +929,6 @@ p a>code:hover {
 #content,
 #footnotes,
 #footer {
-  width: 100%;
   margin-top: 0;
   margin-bottom: 0;
   max-width: 42em;
@@ -1189,13 +1188,11 @@ body.toc2 #header>h1:nth-last-child(2) {
 }
 
 #footer {
-  max-width: 100%;
-  background-color: #515151;
   padding: 1em;
+  border-top: 1px solid #2BD3EF;
 }
 
 #footer-text {
-  color: #2BD3EF;
   line-height: 1.35;
 }
 
@@ -2421,14 +2418,6 @@ table.tableblock.grid-all {
   box-shadow: 0 1px 3px #999999;
 }
 
-#footer {
-  background-image: url('../images/riak/footer-bg.jpg');
-  padding: 25px 0;
-}
-
 #footer-text {
-  color: #fff;
-  text-shadow: 1px 1px 1px #333;
   font-size: 80%;
-  text-align: center;
 }
