@@ -558,7 +558,7 @@ h6 {
 }
 
 hr {
-  border: solid #dddddd;
+  border: solid #2BD3EF;
   border-width: 1px 0 0;
   clear: both;
   margin: 1.25em 0 1.1875em;
@@ -664,7 +664,7 @@ acronym {
   text-transform: uppercase;
   font-size: 90%;
   color: #515151;
-  border-bottom: 1px dotted #dddddd;
+  border-bottom: 1px dotted #2BD3EF;
   cursor: help;
 }
 
@@ -676,7 +676,7 @@ abbr {
 blockquote {
   margin: 0 0 0.9375em;
   padding: 0.5625em 1.25em 0 1.1875em;
-  border-left: 1px solid #dddddd;
+  border-left: 1px solid #2BD3EF;
 }
 
 blockquote cite {
@@ -704,7 +704,7 @@ blockquote p {
 .vcard {
   display: inline-block;
   margin: 0 0 1.25em 0;
-  border: 1px solid #dddddd;
+  border: 1px solid #2BD3EF;
   padding: 0.625em 0.75em;
 }
 
@@ -974,17 +974,17 @@ p a>code:hover {
 
 #header>h1:first-child+#toc {
   margin-top: 8px;
-  border-top: 1px solid #dddddd;
+  border-top: 1px solid #2BD3EF;
 }
 
 #header>h1:only-child,
 body.toc2 #header>h1:nth-last-child(2) {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #2BD3EF;
   padding-bottom: 8px;
 }
 
 #header .details {
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #2BD3EF;
   line-height: 1.45;
   padding-top: 0.25em;
   padding-bottom: 0.25em;
@@ -1033,7 +1033,7 @@ body.toc2 #header>h1:nth-last-child(2) {
 
 #content>h1:first-child:not([class]) {
   color: #616366;
-  border-bottom: 1px solid #dddddd;
+  border-bottom: 1px solid #2BD3EF;
   padding-bottom: 8px;
   margin-top: 0;
   padding-top: 1rem;
@@ -1041,7 +1041,7 @@ body.toc2 #header>h1:nth-last-child(2) {
 }
 
 #toc {
-  border-bottom: 1px dashed #cccccc;
+  border-bottom: 1px dashed #2BD3EF;
   padding-bottom: 0.5em;
 }
 
@@ -1097,7 +1097,7 @@ body.toc2 #header>h1:nth-last-child(2) {
     width: 15em;
     left: 0;
     top: 0;
-    border-right: 1px solid #cccccc;
+    border-right: 1px solid #2BD3EF;
     border-top-width: 0 !important;
     border-bottom-width: 0 !important;
     z-index: 1000;
@@ -1135,7 +1135,7 @@ body.toc2 #header>h1:nth-last-child(2) {
 
   body.toc2.toc-right #toc.toc2 {
     border-right-width: 0;
-    border-left: 1px solid #cccccc;
+    border-left: 1px solid #2BD3EF;
     left: auto;
     right: 0;
   }
@@ -1210,7 +1210,7 @@ body.toc2 #header>h1:nth-last-child(2) {
 }
 
 .sect1+.sect1 {
-  border-top: 1px dashed #cccccc;
+  border-top: 1px dashed #2BD3EF;
 }
 
 #content h1>a.anchor,
@@ -1359,7 +1359,7 @@ table.tableblock #preamble>.sectionbody>.paragraph:first-of-type p {
 .admonitionblock>table td.content {
   padding-left: 1.125em;
   padding-right: 1.25em;
-  border-left: 1px solid #dddddd;
+  border-left: 1px solid #2BD3EF;
   color: #484a4c;
 }
 
@@ -1549,7 +1549,7 @@ table.pyhltable td:not(.code) {
   color: #999;
   padding-left: 0;
   padding-right: .5em;
-  border-right: 1px solid #dddddd;
+  border-right: 1px solid #2BD3EF;
 }
 
 pre.pygments .lineno {
@@ -1958,8 +1958,8 @@ td.hdlist1 {
   line-height: 0;
   display: inline-block;
   border: solid 4px white;
-  -webkit-box-shadow: 0 0 0 1px #dddddd;
-  box-shadow: 0 0 0 1px #dddddd;
+  -webkit-box-shadow: 0 0 0 1px #2BD3EF;
+  box-shadow: 0 0 0 1px #2BD3EF;
 }
 
 .imageblock.left,
