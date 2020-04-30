@@ -1,0 +1,3 @@
+[submodule "taiko-book"]
+	path = taiko-book
+	url = https://github.com/ThirstyHead/taiko-book.git
