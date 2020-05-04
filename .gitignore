@@ -2,3 +2,4 @@
 *.html
 Gemfile.lock
 vendor
+dist
