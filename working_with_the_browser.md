@@ -28,7 +28,7 @@ Open and Close a Browser
     })();
 
 ![`openBrowser` opens a new browser window with a single empty new
-tab.](../images/section_open_and_close_a_browser.png)
+tab.](../assets/images/section_open_and_close_a_browser.png)
 
 Every Taiko action assumes that you have an open, active browser window
 as the result of an `openBrowser` call. You’ll also want to close the
@@ -74,7 +74,7 @@ Open a Browser with a Specific Window Size
 
 ![`openBrowser` accepts any Chrome command line switches, including
 `--window-size` and
-`--window-position`](../images/section_open_and_close_a_browser.png)
+`--window-position`](../assets/images/section_open_and_close_a_browser.png)
 
 If you are testing your website across multiple platforms (desktop,
 tablet, smartphone, smart TV, etc.), then you’ll need the ability to
