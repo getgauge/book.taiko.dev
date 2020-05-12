@@ -1,3 +1,7 @@
+---
+layout: chapter.njk
+---
+
 Performing Mouse and Tap Actions
 ================================
 

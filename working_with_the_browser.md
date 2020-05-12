@@ -1,3 +1,7 @@
+---
+layout: chapter.njk
+---
+
 Working with the Browser
 ========================
 

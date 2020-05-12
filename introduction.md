@@ -1,3 +1,7 @@
+---
+layout: chapter.njk
+---
+
 # Introduction
 
 Taiko is a JavaScript-based Domain Specific Language (DSL) for automatically

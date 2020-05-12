@@ -1,3 +1,7 @@
+---
+layout: chapter.njk
+---
+
 # Installation and Configuration
 
 Installing Taiko couldn’t be easier. It’s a single command:
