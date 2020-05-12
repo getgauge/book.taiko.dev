@@ -1,5 +1,1 @@
-.bundle
-*.html
-Gemfile.lock
-vendor
 dist
