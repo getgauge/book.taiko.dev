@@ -22,6 +22,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   line-height: 1.6;
+  color: #25282D;
 }
 
 article.chapter {
@@ -59,7 +60,12 @@ article.landing {
 
 a, a:visited, a:active {
   text-decoration: none;
-  color: #467;
+  color: #0e7c9d;
+  font-weight: 600;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 h1 {
@@ -89,6 +95,10 @@ pre {
   white-space: pre-wrap;
 }
 
+li {
+  line-height: 2em;
+}
+
 /* Default header styles */
 h1,
 h2,
@@ -101,9 +111,9 @@ h6 {
   font-family: 'PoppinsLatin-SemiBold';
   font-weight: normal;
   font-style: normal;
-  color: #616366;
+  color: #25282D;
   text-rendering: geometricPrecision;
-  margin-top: 1.5em;
+  margin-top: 3em;
   margin-bottom: 0.5em;
   line-height: 1.2125em;
 }
@@ -150,7 +160,7 @@ h6 {
 pre,
 pre>code {
 font-family: monospace;
-background: #222222;
+background: #25282D;
 color: #fff;
 font-size: 16px;
 display: block;
