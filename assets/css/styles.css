@@ -1,8 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
 }
 
 img {
   max-width: 42em;
+}
+
+p {
+  margin: 1em 0;
 }
 
 article.chapter {
@@ -31,4 +40,9 @@ article.landing {
 
 .contents {
   flex-basis: 500px;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+  color: #467;
 }
