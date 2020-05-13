@@ -1,8 +1,34 @@
 body {
-  margin: 0 auto;
-  max-width: 42em;
 }
 
 img {
   max-width: 42em;
+}
+
+article.chapter {
+  max-width: 42em;
+  margin: 3em;
+}
+
+article.landing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width:100%;
+}
+
+.cover, .contents {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  max-width: 35em;
+  margin: 3em;
+}
+
+.cover {
+  flex-basis: 35em;
+}
+
+.contents {
+  flex-basis: 500px;
 }
