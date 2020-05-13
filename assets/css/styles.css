@@ -146,3 +146,14 @@ h5 {
 h6 {
   font-size: 1em;
 }
+
+pre,
+pre>code {
+font-family: monospace;
+background: #222222;
+color: #fff;
+font-size: 16px;
+display: block;
+padding: 10px;
+}
+
