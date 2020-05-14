@@ -1,17 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 
 <html>
-<head>
-  <title>Taiko: A Code-First Approach</title>
-  <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
-</head>
+  <head>
+    <title>Taiko: A Code-First Approach</title>
+    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+  </head>
 
-<body>
-<article class="chapter">
-  {% if chapter %}
-    <h6>Chapter {{ chapter }}</h6>
-  {% endif %}
-  {{ content | safe }}
-</article>
-</body>
+  <body>
+    <article class="chapter">
+      <p>
+        <small>
+          {% if chapter %} Chapter {{ chapter }} | {% endif %}
+          <a href="/">Table of Contents</a>
+        </small>
+      </p>
+      {{ content | safe }}
+    </article>
+  </body>
 </html>
