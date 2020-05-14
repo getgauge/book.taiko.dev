@@ -1,32 +1,33 @@
+{% macro nav() %}
+<p>
+  <small>
+    {% if chapter %} Chapter {{ chapter }} | {% endif %}
+    <a href="/">Table of Contents</a>
+  </small>
+</p>
+{% endmacro %}
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 
 <html>
   <head>
     <title>Taiko: A Code-First Approach</title>
-    <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/assets/css/styles.css">
   </head>
 
   <body>
     <header>
-    <p class="header">
-      <small>
-        {% if chapter %} Chapter {{ chapter }} | {% endif %}
-        <a href="/">Table of Contents</a>
-      </small>
-    </p>
-    <hr/>
+      {{ nav() }}
+      <hr/>
     </header>
     <article class="chapter">
       {{ content | safe }}
     </article>
     <footer>
-    <p class="footer">
-      <hr/>
-      <small>
-        {% if chapter %} Chapter {{ chapter }} | {% endif %}
-        <a href="/">Table of Contents</a>
-      </small>
-    </p>
+      <p class="footer">
+        <hr/>
+        {{ nav() }}
+      </p>
     </footer>
   </body>
 </html>
