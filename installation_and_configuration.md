@@ -1,5 +1,6 @@
 ---
 layout: chapter.njk
+chapter: 1
 ---
 
 # Installation and Configuration

@@ -1,5 +1,6 @@
 ---
 layout: chapter.njk
+chapter: 3
 ---
 
 Selecting Elements on the Page

@@ -1,5 +1,6 @@
 ---
 layout: chapter.njk
+chapter: 5
 ---
 
 Performing Mouse and Tap Actions

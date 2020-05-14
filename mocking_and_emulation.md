@@ -1,5 +1,6 @@
 ---
 layout: chapter.njk
+chapter: 7 
 ---
 
 Mocking and Emulation

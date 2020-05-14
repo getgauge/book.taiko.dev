@@ -1,5 +1,6 @@
 ---
 layout: chapter.njk
+chapter: 6
 ---
 
 Working with Alerts and Dialog Boxes

@@ -8,6 +8,9 @@
 
 <body>
 <article class="chapter">
+  {% if chapter %}
+    <h6>Chapter {{ chapter }}</h6>
+  {% endif %}
   {{ content | safe }}
 </article>
 </body>
