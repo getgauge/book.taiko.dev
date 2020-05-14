@@ -7,14 +7,26 @@
   </head>
 
   <body>
+    <header>
+    <p class="header">
+      <small>
+        {% if chapter %} Chapter {{ chapter }} | {% endif %}
+        <a href="/">Table of Contents</a>
+      </small>
+    </p>
+    <hr/>
+    </header>
     <article class="chapter">
-      <p>
-        <small>
-          {% if chapter %} Chapter {{ chapter }} | {% endif %}
-          <a href="/">Table of Contents</a>
-        </small>
-      </p>
       {{ content | safe }}
     </article>
+    <footer>
+    <p class="footer">
+      <hr/>
+      <small>
+        {% if chapter %} Chapter {{ chapter }} | {% endif %}
+        <a href="/">Table of Contents</a>
+      </small>
+    </p>
+    </footer>
   </body>
 </html>

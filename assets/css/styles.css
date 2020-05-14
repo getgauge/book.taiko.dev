@@ -25,7 +25,7 @@ body {
   color: #25282D;
 }
 
-article.chapter {
+.chapter, header, footer {
   max-width: 42em;
   margin: 3em;
 }
