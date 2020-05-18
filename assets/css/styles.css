@@ -34,38 +34,102 @@ body {
   .chapter, header, footer {
     margin: 0.5em;
   }
+ 
+  img {
+    width: 100%;
+  }
 }
 
-article.landing {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width:100%;
+/* Default header styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PoppinsLatin-SemiBold';
+  line-height: 1.2125em;
+  color: #25282D;
+  text-rendering: geometricPrecision;
 }
 
-.cover, .contents {
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
-  max-width: 35em;
-  margin: 3em;
-}
+@media screen and (min-width: 800px) {
+  .landing {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width:100%;
+  }
 
-.cover {
-  flex-basis: 35em;
-}
+  .cover, .contents {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 35em;
+    margin: 3em;
+  }
 
-.contents {
-  flex-basis: 500px;
-  margin: 1.5em;
+  .cover {
+    flex-basis: 35em;
+  }
+
+  .contents {
+    flex-basis: 500px;
+    margin: 1.5em;
+  }
+
+
+  .cover h1 {
+    margin-top: 1.5em;
+  }
+
+  /* Header styles for larger screens */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin-top: 3em;
+    margin-bottom: 0.5em;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  h1 {
+    font-size: 2.125em;
+    margin-top: 0;
+  }
+
+  h2 {
+    font-size: 1.6875em;
+  }
+
+  h3 {
+    font-size: 1.375em;
+  }
+
+  h4 {
+    font-size: 1.125em;
+  }
+
+  h5 {
+    font-size: 1.125em;
+  }
+
+  h6 {
+    font-size: 1em;
+    color: #2bd3ef
+  }
+
+  h1 {
+    margin: 0.67em 0;
+  }
+
 }
 
 .contents ol {
   padding-inline-start: 20px;
-}
-
-.cover h1 {
-  margin-top: 1.5em;
 }
 
 a, a:visited, a:active {
@@ -76,11 +140,6 @@ a, a:visited, a:active {
 
 a:hover {
   text-decoration: underline;
-}
-
-h1 {
-  margin: 0.67em 0;
-  font-family: 'PoppinsLatin-SemiBold';
 }
 
 img {
@@ -97,7 +156,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 
 pre {
@@ -106,51 +165,6 @@ pre {
 
 li {
   line-height: 2em;
-}
-
-/* Default header styles */
-h1,
-h2,
-h3,
-#toctitle,
-.sidebarblock>.content>.title,
-h4,
-h5,
-h6 {
-  font-family: 'PoppinsLatin-SemiBold';
-  font-weight: normal;
-  font-style: normal;
-  color: #25282D;
-  text-rendering: geometricPrecision;
-  margin-top: 3em;
-  margin-bottom: 0.5em;
-  line-height: 1.2125em;
-}
-
-h1 {
-  font-size: 2.125em;
-  margin-top: 0;
-}
-
-h2 {
-  font-size: 1.6875em;
-}
-
-h3 {
-  font-size: 1.375em;
-}
-
-h4 {
-  font-size: 1.125em;
-}
-
-h5 {
-  font-size: 1.125em;
-}
-
-h6 {
-  font-size: 1em;
-  color: #2bd3ef
 }
 
 pre,
@@ -162,4 +176,3 @@ font-size: 16px;
 display: block;
 padding: 10px;
 }
-
