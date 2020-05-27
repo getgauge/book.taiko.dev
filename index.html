@@ -17,33 +17,9 @@ layout: base.njk
       <li style="list-style: none"><a href="/introduction">Introduction</a>
       </li>
 
-
-      <li><a href="/installation_and_configuration">Installation and configuration</a>
-      </li>
-
-
-      <li><a href="/working_with_the_browser">Working with the Browser</a>
-      </li>
-
-
-      <li><a href="/selecting_elements_on_the_page">Selecting Elements on the Page</a>
-      </li>
-
-
-      <li><a href="/working_with_forms">Working with Forms</a>
-      </li>
-
-
-      <li><a href="/performing_mouse_and_tap_actions">Performing Mouse and Tap Actions</a>
-      </li>
-
-
-      <li><a href="/working_with_alerts_and_dialog_boxes">Working with alerts and Dialog boxes</a>
-      </li>
-
-
-      <li><a href="/mocking_and_emulation">Mocking and emulation</a>
-      </li>
+      {% for chapter in chapters %}
+      <li><a style="text-transform: capitalize" href="{{ chapter }}">{{ chapter | heading }}</a></li>
+      {% endfor %}
     </ol>
   </div>
 </article>
