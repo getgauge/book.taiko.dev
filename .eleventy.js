@@ -9,8 +9,16 @@ module.exports = function(eleventyConfig) {
   // This filter is used for deriving the chapter names
   // from data in chapters.json
   eleventyConfig.addFilter('heading', function(str){
-    return str.replace(/_/g, " ");
+    return str.replace(/[_;\\/:*?\"<>|&']/g, " ");
   });
+
+  eleventyConfig.addFilter('nextChapter', function(str, chapters){
+    var currentIndex = chapters.indexOf(str.slice(1, -1))
+    return `/${chapters[currentIndex + 1]}/`;
+  });
+
+  // Filter for linking to section headers
+  // and displaying chapters in a page
   let markdownItAnchor = require("markdown-it-anchor");
   let mdIt = markdownIt({
 		html: true,

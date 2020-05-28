@@ -15,10 +15,13 @@ layout: base.njk
   <hr/>
 </header>
 <article class="chapter">
+  <h1>{{ page.url | heading }}</h1>
   <aside>
-  <p>Learn how to</p>
   {{ content |  toc | safe }}
   </aside>
+  <!-- There is an ugly css hack
+  to hide the chapter title from markdown. Look
+  for article.chapter style -->
   {{ content | safe }}
 </article>
 <footer>
