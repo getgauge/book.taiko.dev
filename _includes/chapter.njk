@@ -15,6 +15,10 @@ layout: base.njk
   <hr/>
 </header>
 <article class="chapter">
+  <aside>
+  <p>Learn how to</p>
+  {{ content |  toc | safe }}
+  </aside>
   {{ content | safe }}
 </article>
 <footer>
