@@ -12,11 +12,6 @@ module.exports = function(eleventyConfig) {
     return str.replace(/[_;\\/:*?\"<>|&']/g, " ");
   });
 
-  eleventyConfig.addFilter('nextChapter', function(str, chapters){
-    var currentIndex = chapters.indexOf(str.slice(1, -1))
-    return `/${chapters[currentIndex + 1]}/`;
-  });
-
   // Filter for linking to section headers
   // and displaying chapters in a page
   let markdownItAnchor = require("markdown-it-anchor");
