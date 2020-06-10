@@ -3,9 +3,6 @@ layout: chapter.njk
 chapter: 3
 ---
 
-Selecting Elements on the Page
-==============================
-
 In this chapter, you’ll learn how to select elements on the page.
 
 \*Click or Tap an Element

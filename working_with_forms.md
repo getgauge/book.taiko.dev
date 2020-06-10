@@ -3,9 +3,6 @@ layout: chapter.njk
 chapter: 4
 ---
 
-Working with Forms
-==================
-
 In this chapter, you’ll learn how to work with forms.
 
 \*Write in a Text Field

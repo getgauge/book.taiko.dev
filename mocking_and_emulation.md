@@ -3,9 +3,6 @@ layout: chapter.njk
 chapter: 7 
 ---
 
-Mocking and Emulation
-=====================
-
 In this chapter, you’ll learn how to mock network calls and emulate
 devices and networks.
 

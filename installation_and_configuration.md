@@ -3,8 +3,6 @@ layout: chapter.njk
 chapter: 1
 ---
 
-# Installation and Configuration
-
 Installing Taiko couldn’t be easier. It’s a single command:
 `npm install -g taiko`. But there’s plenty more that you can do to
 configure and customize Taiko once it’s installed.

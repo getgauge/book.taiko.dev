@@ -30,10 +30,6 @@ body {
   margin: 3em;
 }
 
-article.chapter h1:nth-child(3) {
-  display:none;
-}
-
 @media only screen and (max-width: 600px) {
   .chapter, header, footer {
     margin: 0.5em;
@@ -188,7 +184,3 @@ padding: 10px;
 aside {
   margin-bottom: 3em;
 }
-
-
-
-

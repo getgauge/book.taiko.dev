@@ -3,9 +3,6 @@ layout: chapter.njk
 chapter: 5
 ---
 
-Performing Mouse and Tap Actions
-================================
-
 In this chapter, you’ll learn how to perform mouse and tap actions.
 
 \*Click or Tap
