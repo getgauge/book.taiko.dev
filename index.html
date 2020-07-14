@@ -2,7 +2,7 @@
 layout: base.njk
 ---
 <article>
-    <h1>Taiko: A Code-First Approach To User Journey Testing</h1>
+  <h1>Taiko: A Code-First Approach To User Journey Testing</h1>
 </article>
 <article class="landing">
   <div class="contents">
@@ -10,11 +10,24 @@ layout: base.njk
       <li style="list-style: none">
         <a href="/introduction">Introduction</a>
       </li>
-      {% for chapter in chapters %}
-        <li>
-          <a href="{{ chapter }}">{{ chapter | heading }}</a>
-        </li>
-      {% endfor %}
+      <li>
+        <a href="/installation_and_configuration">Installation and Configuration</a>
+      </li>
+      <li>
+        <a href="/working_with_the_browser">Working with the browser</a>
+      </li>
+      <li>
+        Working with Forms
+      </li>
+      <li>
+        Performing Mouse and Tap Actions
+      </li>
+      <li>
+        Working with Alerts and Dialog boxes
+      </li>
+      <li>
+        Mocking and Emulation
+      </li>
     </ol>
   </div>
   <div class="cover">
@@ -26,7 +39,9 @@ layout: base.njk
     <img src="/assets/images/scott-davis.png">
   </div>
   <div>
-    <p><strong>By Scott Davis</strong></p>
+    <p>
+      <strong>By Scott Davis</strong>
+    </p>
     <p>In Taiko - a Code First Approach, author Scott Davis (Web Architect and 
     Principal Engineer with ThoughtWorks) demonstrates how <a href="https://taiko.dev">Taiko</a> empowers you to write
     User Journey Tests through straightforward examples and a “prove it in code” approach.</p>
