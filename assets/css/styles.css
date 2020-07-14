@@ -139,7 +139,6 @@ img {
 
 p {
   margin: 1em 0;
-  text-align: justify;
 }
 
 code,
@@ -170,6 +169,11 @@ background: #25282D;
 color: #fff;
 display: block;
 padding: 10px;
+}
+
+code {
+  padding: 2px 3px;
+  background-color: #e6e6e6;
 }
 
 aside {
