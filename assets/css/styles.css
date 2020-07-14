@@ -147,7 +147,6 @@ kbd,
 pre,
 samp {
   font-family: monospace, serif;
-  font-size: 0.8em;
 }
 
 .landing {
@@ -169,7 +168,6 @@ pre>code {
 font-family: monospace;
 background: #25282D;
 color: #fff;
-font-size: 16px;
 display: block;
 padding: 10px;
 }
@@ -188,4 +186,9 @@ article, header, footer {
 header, footer {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+aside ol {
+  list-style: none;
+  padding-inline-start: 0;
 }
