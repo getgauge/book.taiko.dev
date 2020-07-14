@@ -23,11 +23,9 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: #25282D;
-}
-
-.chapter, header, footer {
-  max-width: 42em;
-  margin: 3em;
+  background: #fcfcfc;
+  border-top:solid 1px #2bd3ef;
+  margin:0;
 }
 
 @media only screen and (max-width: 600px) {
@@ -55,32 +53,24 @@ h6 {
 }
 
 @media screen and (min-width: 800px) {
-  .landing {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width:100%;
+  .cover, .contents {
+    max-width: 35em;
   }
 
-  .cover, .contents {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    max-width: 35em;
-    margin: 3em;
+  .cover img {
+    width: 20em;
   }
 
   .cover {
-    flex-basis: 35em;
-  }
-
-  .contents {
-    flex-basis: 500px;
-    margin: 1.5em;
+    float: right;
   }
 
   .contents a {
     text-transform: capitalize;
+  }
+
+  .contents ol {
+    padding-inline-start: 20px;
   }
 
   .cover h1 {
@@ -94,7 +84,7 @@ h6 {
   h4,
   h5,
   h6 {
-    margin-top: 3em;
+    margin-top: 2em;
     margin-bottom: 0.5em;
     font-weight: normal;
     font-style: normal;
@@ -132,10 +122,6 @@ h6 {
 
 }
 
-.contents ol {
-  padding-inline-start: 20px;
-}
-
 a, a:visited, a:active {
   text-decoration: none;
   color: #0e7c9d;
@@ -153,6 +139,7 @@ img {
 
 p {
   margin: 1em 0;
+  text-align: justify;
 }
 
 code,
@@ -161,6 +148,12 @@ pre,
 samp {
   font-family: monospace, serif;
   font-size: 0.8em;
+}
+
+.landing {
+    display: flex;
+    flex-flow: row wrap;  
+    justify-content: space-between;
 }
 
 pre {
@@ -184,3 +177,16 @@ padding: 10px;
 aside {
   margin-bottom: 3em;
 }
+
+article, header, footer {
+  max-width: 46em;
+  background: white;
+  margin: 1em auto;
+  padding: 2em;
+}
+
+header, footer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+

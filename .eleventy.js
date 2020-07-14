@@ -17,7 +17,6 @@ module.exports = function(eleventyConfig) {
   let markdownItAnchor = require("markdown-it-anchor");
   let mdIt = markdownIt({
 		html: true,
-		breaks: true,
 		linkify: true
 	})
 	.use(markdownItAnchor, {

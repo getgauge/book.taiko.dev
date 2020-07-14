@@ -2,24 +2,22 @@
 layout: base.njk
 ---
 <article class="landing">
-  <div class="cover">
-    <img class="cover-image" src="./assets/images/cover.png"/>
-    <h1>Taiko: A Code-First Approach</h1>
-    <p>Scott Davis - scott.davis at thoughworks dot com</p>
-  </div>
-
-
+  <h1>Taiko: A Code first approach to user Journey testing</h1>
+</article>
+<article class="landing">
   <div class="contents">
-    <h2>Contents</h2>
-
-
     <ol start="0">
-      <li style="list-style: none"><a href="/introduction">Introduction</a>
+      <li style="list-style: none">
+        <a href="/introduction">Introduction</a>
       </li>
-
       {% for chapter in chapters %}
-      <li><a href="{{ chapter }}">{{ chapter | heading }}</a></li>
+        <li>
+          <a href="{{ chapter }}">{{ chapter | heading }}</a>
+        </li>
       {% endfor %}
     </ol>
+  </div>
+  <div class="cover">
+    <img class="cover-image" src="./assets/images/cover.png"/>
   </div>
 </article>
