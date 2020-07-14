@@ -60,6 +60,10 @@ h6 {
     margin-top: 1.5em;
   }
 
+  article, header, footer {
+    padding: 1em;
+  }
+
   /* Header styles for larger screens */
   h1,
   h2,
@@ -182,4 +186,9 @@ header, footer {
 aside ol {
   list-style: none;
   padding-inline-start: 0;
+}
+
+.chapter img {
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
